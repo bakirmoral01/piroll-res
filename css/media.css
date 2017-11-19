@@ -1,0 +1,747 @@
+@media (min-width: 350px) and (max-width: 590px) {
+
+    .no_pad {
+        padding-left: 0px;
+        padding-right: 0px
+    }
+
+    #header {
+        background: url(../img/bg-1.jpg) no-repeat;
+        background-position: center center;
+        height: 670px;
+        position: relative
+    }
+
+    .logo {
+        padding-top: 40px;
+        padding-left: 50%;
+    }
+
+    .navbar_style {
+        background: transparent;
+        border: none;
+        padding-top: 25px
+    }
+
+    .navbar_style .navbar-nav > li {
+        background: #18a15F;
+        z-index: 1
+    }
+
+    .navbar_style .navbar-nav > li > a {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: Montserrat;
+        font-weight: 500;
+        padding-right: 25px
+    }
+
+    .navbar_style .navbar-nav > li > a:hover {
+        color: #10c9c3
+    }
+
+    .header_content {
+        width: 90%;
+        height: 240px;
+        position: absolute;
+        left: 6%;
+        bottom: -415px;
+
+    }
+    .header_head {
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 500;
+        margin-bottom: 35px
+    }
+    .header_para {
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: normal;
+        color: #787878;
+    }
+    .contact_btn {
+        background: #10c9c3;
+        font-family: Montserrat;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: white;
+        padding: 10px 40px;
+        border: none;
+        margin-top: 40px;
+        margin-left: 20%
+    }
+    #about {
+        height: 420px;
+
+    }
+    .about_content {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .heading_title {
+        font-family: montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .paragraph_title {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: normal;
+        color: #787878;
+        margin-bottom: 30px
+    }
+
+    #skills {
+        min-height: 300px;
+        background: #f8f9f9;
+    }
+
+    .bg_color_skills {
+        background: #f8f9f9;
+    }
+    .skills_content {
+        margin-top: 7%;
+        width: 80%;
+        padding-left: 0%;
+        height: 100%;
+    }
+    .skills_content ul {
+        list-style: none
+    }
+    .skills_list_h3 {
+        text-transform: capitalize;
+        font-family: montserrat;
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .skills_list_p,
+    .skills_list_p1,
+    .skills_list_p2 {
+        text-transform: uppercase;
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        border-bottom: 1px solid #d8d8d8;
+    }
+
+    .skills_list_p:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 75%;
+    }
+    .skills_list_p1:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 90%;
+    }
+
+    .skills_list_p2:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 65%;
+    }
+
+    .skills_image {}
+
+    #img_pos {
+        height: 100%
+    }
+
+    #feedbacks {
+        background: #10c9c3;
+        min-height: 650px;
+    }
+
+    .main_feedback {
+        margin-top: 10%
+    }
+
+    .icons_feedback {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .cont_feedback {
+        text-align: center
+    }
+
+
+
+    #work_process {
+        min-height: 535px;
+
+    }
+
+    .single_img_work {
+        padding: 50px
+    }
+
+    .single_img_work img {
+        width: 100%
+    }
+
+    .video {
+        margin-bottom: 40px;
+        position: relative
+    }
+
+    .play_icon {
+        position: absolute;
+        top: 18%;
+        left: 33%;
+    }
+
+    #our_design {
+        background: #f5f5f5;
+        height: 1310px;
+
+    }
+
+
+    #testmonial {
+        min-height: 500px;
+        background: #10c9c3;
+    }
+    .test_contant {
+        text-align: center;
+        margin-top: 125px
+    }
+
+    .style_width,
+    .style_width_2 {
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+    #project {
+        min-height: 700px;
+        background: #f5f5f5;
+        margin-top: 60px
+    }
+
+    footer {
+        background: #141414;
+        min-height: 280px
+    }
+
+    .main_footer {
+        margin-top: 100px;
+        color: #bcbcbc;
+    }
+    .copyright {
+        text-align: center
+    }
+
+    .mail_address {
+        text-align: center;
+    }
+
+    .services,
+    .contact {
+        text-align: center
+    }
+
+    .copyright h3 {
+        margin-top: 0px;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff
+    }
+
+    .copyright,
+    .mail_address p {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        color: #bcbcbc
+    }
+
+    .style_list {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        list-style: none;
+    }
+
+    .services,
+    .contact,
+    .social_media {
+        text-align: center;
+        padding-right: 13%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 591px) and (max-width: 767px) {
+    #about {
+        height: 420px;
+
+    }
+
+    .header_content {
+        width: 80%;
+        height: 240px;
+        position: absolute;
+        left: 10%;
+        bottom: -415px
+    }
+
+    .about_content {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .heading_title {
+        font-family: montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .paragraph_title {
+        font-family: Nunito Sans;
+        font-size: 16px;
+        font-weight: normal;
+        color: #787878;
+        margin-bottom: 30px
+    }
+
+    #skills {
+        min-height: 300px;
+        background: #f8f9f9;
+    }
+
+    .bg_color_skills {
+        background: #f8f9f9;
+    }
+    .skills_content {
+        margin-top: 7%;
+        width: 70%;
+        padding-left: 18%;
+        height: 100%;
+    }
+    .skills_content ul {
+        list-style: none
+    }
+    .skills_list_h3 {
+        text-transform: capitalize;
+        font-family: montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .skills_list_p,
+    .skills_list_p1,
+    .skills_list_p2 {
+        text-transform: uppercase;
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        border-bottom: 1px solid #d8d8d8;
+    }
+
+    .skills_list_p:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 75%;
+    }
+    .skills_list_p1:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 90%;
+    }
+
+    .skills_list_p2:after {
+        content: "";
+        display: block;
+        border-bottom: 1px solid #10c9c3;
+        margin-bottom: -1px;
+        width: 65%;
+    }
+
+    .skills_image {}
+
+    #img_pos {
+        height: 100%
+    }
+
+    #feedbacks {
+        background: #10c9c3;
+        min-height: 650px;
+    }
+
+    .main_feedback {
+        margin-top: 10%
+    }
+
+    .icons_feedback {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px
+    }
+    .cont_feedback {
+        text-align: center
+    }
+    .icons_para {
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        color: white;
+        margin-bottom: 10px
+    }
+
+    #our_work {}
+
+    .more_load {
+        min-height: 70px;
+        background: #f5f5f5;
+        text-align: center;
+    }
+    .more_load p {
+        text-transform: uppercase;
+        font-family: montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        color: #c2c2c2;
+        padding-top: 30px
+    }
+
+    #work_process {
+        min-height: 580px;
+
+    }
+
+    .single_img_work {
+        padding: 50px
+    }
+
+    .single_img_work img {
+        width: 100%
+    }
+
+    .video {
+        margin-bottom: 40px;
+        position: relative
+    }
+
+    .play_icon {
+        position: absolute;
+        top: 20%;
+        left: 38%;
+    }
+
+    #our_design {
+        background: #f5f5f5;
+        height: 1310px;
+
+    }
+
+    .main_design {
+        margin-top: 50px
+    }
+
+    .single_design {
+        text-align: center;
+        padding-top: 50px
+    }
+    .design_h4 {
+        text-transform: uppercase;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        color: #191919
+    }
+    .design_p {
+        font-family: Nunito Sans;
+        font-size: 12px;
+        font-weight: normal;
+        color: #787878;
+    }
+
+
+    #testmonial {
+        min-height: 500px;
+        background: #10c9c3;
+    }
+    .test_contant {
+        text-align: center;
+        margin-top: 200px
+    }
+
+    .test_p {
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+        color: white
+    }
+    .test_name {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        color: white
+    }
+
+    #clients {
+        min-height: 200px;
+    }
+
+    .single_client {
+        padding-top: 80px;
+        text-align: center
+    }
+
+    #project {
+
+        background: #f5f5f5;
+        margin-top: 60px
+    }
+
+    footer {
+        background: #141414;
+        min-height: 280px
+    }
+
+    .main_footer {
+        margin-top: 100px;
+        color: #bcbcbc;
+    }
+    .copyright {
+        text-align: center
+    }
+
+    .mail_address {
+        text-align: center;
+    }
+
+    .services,
+    .contact {
+        text-align: center
+    }
+
+    .copyright h3 {
+        margin-top: 0px;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff
+    }
+
+    .copyright,
+    .mail_address p {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        color: #bcbcbc
+    }
+
+    .style_list {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        list-style: none;
+    }
+
+    .services,
+    .contact,
+    .social_media {
+        text-align: center;
+        padding-right: 7%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_content {
+        width: 57%;
+        height: 240px;
+        position: absolute;
+        left: 42%;
+        bottom: -310px;
+    }
+
+    .navbar_style .navbar-nav > li > a {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: Montserrat;
+        font-weight: 500;
+        padding-right: 9px;
+    }
+    .skills_content {
+        margin-top: 20%;
+        width: 88%;
+        padding-left: 9%;
+    }
+    .video {
+        margin-bottom: 40px;
+        position: relative
+    }
+
+    .play_icon {
+        position: absolute;
+        top: 36%;
+        left: 42%;
+    }
+    .single_client img {
+        width: 100%
+    }
+    .style_width,
+    .style_width_2 {
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+    .test_contant {
+        text-align: center;
+        margin-top: 160px;
+    }
+
+    #work_process {
+        min-height: 735px;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #header {
+        background: url(../img/bg-1.jpg) no-repeat;
+        background-position: center center;
+        height: 600px;
+        position: relative;
+    }
+    .header_content {
+        width: 44%;
+        height: 240px;
+        position: absolute;
+        left: 51%;
+        bottom: -290px;
+    }
+
+    .navbar_style .navbar-nav > li > a {
+        color: #000;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: Montserrat;
+        font-weight: 500;
+        padding-right: 35px
+    }
+
+    #feedbacks {
+        background: #10c9c3;
+        min-height: 220px;
+    }
+    #skills {
+        min-height: 530px;
+    }
+    .skills_content {
+        margin-top: 30%;
+        width: 88%;
+        padding-left: 3%;
+    }
+
+    .icons_feedback {
+        padding-right: 25%;
+        padding-left: 5%
+    }
+
+    .play_icon {
+        position: absolute;
+        top: 37%;
+        left: 45%;
+    }
+    #testmonial {
+        min-height: 400px;
+        background: #10c9c3;
+    }
+    .test_contant {
+        text-align: center;
+        margin-top: 130px
+    }
+    footer {
+        background: #141414;
+        min-height: 280px
+    }
+
+    .main_footer {
+        margin-top: 100px;
+        color: #bcbcbc;
+    }
+    .copyright {
+        text-align: left
+    }
+
+    .mail_address {
+        text-align: justify;
+    }
+
+    .services,
+    .contact,
+    .social_media {
+        text-align: justify
+    }
+
+    .copyright h3 {
+        margin-top: 0px;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff
+    }
+
+    .copyright,
+    .mail_address p {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        color: #bcbcbc
+    }
+
+    .style_list {
+        font-size: 15px;
+        font-family: Nunito Sans;
+        font-weight: normal;
+        list-style: none;
+    }
+}
+
+@media (min-width: 1200px) {}

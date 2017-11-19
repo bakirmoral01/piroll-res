@@ -1,0 +1,636 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+
+.no_pad{
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+#header{
+    background: url(../img/bg-1.jpg) no-repeat;
+    background-position: center center;
+    height: 670px;
+    position: relative;
+   
+}
+
+.logo{
+    padding-top: 35px;
+}
+
+.navbar_style{
+    background: transparent;
+    border: none;
+    padding-top: 25px
+}
+
+.navbar_style .navbar-nav>li>a{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 500;
+    padding-right: 25px
+}
+
+.navbar_style .navbar-nav>li>a:hover{
+    color: #10c9c3
+}
+
+.header_content{
+      width: 38%;
+    height: 240px;
+    position: absolute;
+    left: 60%;
+    bottom: -315px;
+}
+.header_head{
+     font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: #10C9C3;
+}
+.header_para{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: normal;
+    color: #10C9C3;
+}
+.contact_btn{
+        background: #10c9c3;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    margin-top:40px
+}
+
+#about{
+    height: 420px;
+    
+}
+.about_content{
+    text-align: center;
+    margin-top: 100px;
+}
+.heading_title{
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.paragraph_title{
+     font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: normal;
+    color: #787878;
+    margin-bottom: 30px
+}
+
+#skills{
+    min-height: 564px;
+   
+}
+
+.bg_color_skills{
+    background: #f8f9f9;
+    height: 100%;
+}
+.skills_content{
+    margin-top: 20%;
+    width: 65%;
+    padding-left: 9%;
+}
+.skills_content ul{
+    list-style: none
+}
+.skills_list_h3{
+    text-transform: capitalize;
+     font-family: montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+} 
+
+.skills_list_p,
+.skills_list_p1,
+.skills_list_p2{
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.skills_list_p:after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #10c9c3;
+    margin-bottom: -1px;
+    width: 75%;
+}
+.skills_list_p1:after{
+     content: "";
+    display: block;
+    border-bottom: 1px solid #10c9c3;
+    margin-bottom: -1px;
+    width: 90%;
+}
+
+.skills_list_p2:after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #10c9c3;
+    margin-bottom: -1px;
+    width: 65%;
+}
+
+.skills_image{
+}
+
+#img_pos{
+      height: 100%  
+}
+
+#feedbacks{
+    background: #10c9c3;
+    min-height: 240px;
+}
+
+.main_feedback{
+     margin-top: 35%
+}
+
+.icons_feedback{
+       float: left;
+    width: 25%;
+    
+}
+.cont_feedback{}
+.icons_para{
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px
+}
+
+#our_work{
+    
+}
+
+.more_load{
+    min-height: 70px;
+    background: #f5f5f5;
+    text-align: center;
+}
+.more_load p{
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: #c2c2c2;
+    padding-top: 30px
+}
+
+#work_process{
+    min-height: 800px;
+    
+}
+
+.single_img_work{}
+
+.video{
+    margin-bottom: 40px;
+   position: relative
+}
+
+.play_icon{
+      position: absolute;
+    top: 40%;
+    left: 47%;  
+}
+
+#our_design{
+    background: #f5f5f5;
+    height: 475px
+ 
+}
+
+.main_design{
+    margin-top: 50px
+}
+
+.single_design{
+    text-align: center;
+    padding-top: 50px
+}
+.design_h4{
+     text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: #191919
+}
+.design_p{
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-weight: normal;
+    color: #787878;
+}
+
+
+#testmonial{
+    min-height: 500px;
+    background: #10c9c3;
+}
+.test_contant{
+    text-align: center;
+    margin-top: 200px
+}
+
+.test_p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    color: white
+}
+.test_name{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    color: white
+}
+
+#clients{
+    min-height: 200px;
+}
+
+.single_client{
+    padding-top: 80px;
+    text-align: center
+}
+
+#project{
+    min-height:635px;
+    background: #f5f5f5
+}
+
+.form_project{}
+
+.style_width,
+.style_width_2{
+       width: 49.5%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+        margin-bottom: 12px;
+}
+
+.style_input{
+        margin-bottom: 12px;
+}
+.style_textarea{}
+.send_btn{
+        background: #10c9c3;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px
+}
+
+footer{
+    background: #141414;
+    min-height: 280px
+}
+
+.main_footer{
+    margin-top: 100px;
+    color: #bcbcbc;
+}
+.copyright{
+    text-align: left
+}
+
+.mail_address{
+    text-align: justify;
+}
+
+.services, .contact{
+    text-align: justify
+}
+
+.copyright h3{
+    margin-top: 0px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px ;
+    color: #ffffff
+}
+
+.copyright, .mail_address p{
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    color: #bcbcbc
+}
+
+.style_list{
+    font-size: 15px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    list-style: none;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
